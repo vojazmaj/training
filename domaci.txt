@@ -1,0 +1,9 @@
+1. Koristeci nacin dodavanja event listener-a sa prilozenog url-a (https://www.w3schools.com/js/tryit.asp?filename=tryjs_events1) kreirati funkcionalost tako da kada korisnik klikne na sliku lopte podesiti da pozadina teksta postane zuta.
+
+2. Kada korisnik odradi hover-mouseover preko naslova vesti povecati taj naslov da bude h1, kada hover prestane vratiti naslov na h3.
+
+3. Kada korisnik klikne na dugme u meni bar-u prikazati alert sa tekstom koji pise na dugmetu.
+
+4.Iznad vesti dodati jedan red u kojem ce biti jedan text input i jedno dugme. Kada korisnik klikne na dugme alertovati sadrzaj inputa ako postoji, ako nista nije upisano napisati "nema poruke" u alertu. Takodje kada se taj klik desio isprazniti input tako da ne pise nista u njemu;
+
+5. KOD MORA IMATI KOMENTARE

@@ -1,0 +1,180 @@
+{
+  "firstName": {
+    "field": {
+      "type": "text",
+      "id": "firstNameInput",
+      "class": "form-control",
+      "placeholder": "Ex. John"
+    },
+    "label": "First Name",
+    "validation": {
+      "min": 2,
+      "max": 20,
+      "lettersOnly": true,
+      "firstLetterCapital": true
+    }
+  },
+  "lastName": {
+    "field": {
+      "type": "text",
+      "id": "lastNameInput",
+      "class": "form-control",
+      "placeholder": "Ex. Smith"
+    },
+    "label": "Last Name",
+    "validation": {
+      "min": 2,
+      "max": 20,
+      "lettersOnly": true,
+      "firstLetterCapital": true
+    }
+  },
+  "email": {
+    "field": {
+      "type": "text",
+      "id": "emailField",
+      "class": "form-control",
+      "placeholder": "john@example.com"
+    },
+    "label": "E-mail",
+    "validation": {
+      "validEmail": true
+    }
+  },
+  "phone": {
+    "field": {
+      "type": "text",
+      "id": "phoneInput",
+      "class": "form-control",
+      "placeholder": "011*******"
+    },
+    "label": "Phone",
+    "validation": {
+      "min": 10,
+      "numbersOnly": true
+    }
+  },
+  "country": {
+    "field": {
+      "type": "select",
+      "id": "countrySelect",
+      "class": "form-control",
+      "placeholder": "Choose Country"
+    },
+    "label": "Country",
+    "validation": {},
+    "options": {
+      "usa": "United States",
+      "can": "Canada",
+      "arg": "Argentina",
+      "fr": "France",
+      "ger": "Germany",
+      "ser": "Serbia",
+      "rus": "Russia",
+      "chi": "China",
+      "jap": "Japan",
+      "aus": "Australia"
+    }
+  },
+  "city": {
+    "field": {
+      "type": "select",
+      "id": "citySelect",
+      "class": "form-control",
+      "placeholder": "Choose City"
+    },
+    "label": "City",
+    "validation": {},
+    "containerId": "citySelectContainer",
+    "dependingOn": "country",
+    "options": {
+      "usa": {
+        "was": "Washington",
+        "ny": "New York"
+      },
+      "can": {
+        "ont": "Ontario",
+        "van": "Vancouver"
+      },
+      "arg": {
+        "ba": "Buenos Aires",
+        "co": "Cordoba"
+      },
+      "fr": {
+        "par": "Paris",
+        "mar": "Marseile"
+      },
+      "ger": {
+        "ber": "Berlin",
+        "mun": "Munich"
+      },
+      "ser": {
+        "bg": "Belgrade",
+        "ns": "Novi sad"
+      },
+      "rus": {
+        "mos": "Moscow",
+        "sp": "Saint Petersburg"
+      },
+      "chi": {
+        "bej": "Beijing",
+        "hk": "Hong kong"
+      },
+      "jap": {
+        "tok": "Tokyo",
+        "os": "Osaka"
+      },
+      "aus": {
+        "syd": "Sydney",
+        "cam": "Canberra"
+      }
+    }
+  },
+  "password": {
+    "field": {
+      "type": "password",
+      "id": "passwordInput",
+      "class": "form-control",
+      "placeholder": "Password"
+    },
+    "label": "Password",
+    "validation": {
+      "min": 8
+    }
+  },
+  "gender": {
+    "field": {
+      "type": "radio",
+      "class": "form-check-input genderCheckBox",
+      "name": "genderCheckBox"
+    },
+    "labelClass": "form-check-label",
+    "label": "Gender",
+    "options": {
+      "male": "Male",
+      "female": "Female"
+    }
+  },
+  "biography": {
+    "field": {
+      "type": "textarea",
+      "id": "bioInput",
+      "cols": 30,
+      "rows": 4
+    },
+    "label": "Biography",
+    "counterId": "biographyCounter",
+    "validation": {
+      "counter": 40
+    }
+  },
+  "termsAccepted": {
+    "field": {
+      "type": "checkbox",
+      "id": "termsAndConditions",
+      "class": "form-check-input"
+    },
+    "label": "I accept terms and conditions",
+    "labelClass": "form-check-label"
+  }
+}
