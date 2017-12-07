@@ -1,8 +1,5 @@
-/*.carousel-item{*/
-    /*max-width: 100%;*/
-    /*max-height: 600px;*/
-/*}*/
-.square-image-box{
-    max-width: 200px;
-    max-height: 200px;
+body { 
+    background: url("img/thunder.jpg")
+    fixed center; 
+
 }
