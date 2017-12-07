@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+        crossorigin="anonymous">
+    <script src="jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <br>
+                <form>
+                    <div class="row">
+                        <div class="col-8">
+                            <h3>Monday</h3>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="monMinTemp">Lowest Temperature</label>
+                                        <input type="number" class="form-control" id="monMinTemp" placeholder="° Celsius" name="monMinTemp">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="monMaxTemp">Highest Temperature</label>
+                                        <input type="number" class="form-control" id="monMaxTemp" placeholder="° Celsius" name="monMaxTemp">
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <h3>Tuesday</h3>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="tueMinTemp">Lowest Temperature</label>
+                                        <input type="number" class="form-control" id="tueMinTemp" placeholder="° Celsius" name="tueMinTemp">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="tueMaxTemp">Highest Temperature</label>
+                                        <input type="number" class="form-control" id="tueMaxTemp" placeholder="° Celsius" name="tueMaxTemp">
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <h3>Wednesday</h3>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="wenMinTemp">Lowest Temperature</label>
+                                        <input type="number" class="form-control" id="wenMinTemp" placeholder="° Celsius" name="wenMinTemp">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="wenMaxTemp">Highest Temperature</label>
+                                        <input type="number" class="form-control" id="wenMaxTemp" placeholder="° Celsius" name="wenMaxTemp">
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <h3>Thursday</h3>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="thuMinTemp">Lowest Temperature</label>
+                                        <input type="number" class="form-control" id="thuMinTemp" placeholder="° Celsius" name="thuMinTemp">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="thuMaxTemp">Highest Temperature</label>
+                                        <input type="number" class="form-control" id="thuMaxTemp" placeholder="° Celsius" name="thuMaxTemp">
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <h3>Friday</h3>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="friMinTemp">Lowest Temperature</label>
+                                        <input type="number" class="form-control" id="friMinTemp" placeholder="° Celsius" name="friMinTemp">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="friMaxTemp">Highest Temperature</label>
+                                        <input type="number" class="form-control" id="friMaxTemp" placeholder="° Celsius" name="friMaxTemp">
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <h3>Saturday</h3>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="satMinTemp">Lowest Temperature</label>
+                                        <input type="number" class="form-control" id="satMinTemp" placeholder="° Celsius" name="satMinTemp">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="satMaxTemp">Highest Temperature</label>
+                                        <input type="number" class="form-control" id="satMaxTemp" placeholder="° Celsius" name="satMaxTemp">
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <h3>Sunday</h3>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="sunMinTemp">Lowest Temperature</label>
+                                        <input type="number" class="form-control" id="sunMinTemp" placeholder="° Celsius" name="sunMinTemp">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="form-group">
+                                        <label for="sunMaxTemp">Highest Temperature</label>
+                                        <input type="number" class="form-control" id="sunMaxTemp" placeholder="° Celsius" name="sunMaxTemp">
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-primary" id="submitButton">Submit</button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="alert alert-success" role="alert" id="avg-desc">
+                                        
+                                    </div>
+                                    <div class="alert alert-info" role="alert" id="min-desc">
+                                        
+                                    </div>
+                                    <div class="alert alert-warning" role="alert" id="max-desc">
+                                
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="temperature.js"></script>
+</body>
+
+</html>
